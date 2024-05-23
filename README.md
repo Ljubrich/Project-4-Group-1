@@ -23,7 +23,7 @@ We had decided on using this dataset from Kaggle which provides information on 4
 
 Firstly, we had to select the appropriate features to be used in our ML model. We had ended up dropping 20 individual features as they didn't provide any significant information to the dataset. We were able to find these outliers by exploring the dataset using power BI. `link to powerBI presentation here`. We had also attempted to find outliers using PCA and KMeans clustering, and mutual information classification. The mutual information classification provided a good visualisation on what features effect loan repayment behaviours.<br>
 ![Mutual info classification graph](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Mutual%20information%20classification.png)<br>
-The PCA and KMeans clustering did not seem to seperate the data into meaningful clusters around the status feature.<br>
+The PCA and KMeans clustering did not seem to seperate the data into meaningful clusters around the status feature. It did however get 100% in the first two PCA variables.<br>
 ![Status vs KMeans clustering](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Status%20vs%20KMeans.PNG)
 <br>
 
