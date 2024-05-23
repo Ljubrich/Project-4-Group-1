@@ -22,23 +22,23 @@ We had decided on using this dataset from Kaggle which provides information on 4
 ### Methodology
 
 Firstly, we had to select the appropriate features to be used in our ML model. We had ended up dropping 20 individual features as they didn't provide any significant information to the dataset. We were able to find these outliers by exploring the dataset using power BI. `link to powerBI presentation here`. We had also attempted to find outliers using PCA and KMeans clustering, and mutual information classification. The mutual information classification provided a good visualisation on what features effect loan repayment behaviours.<br>
-[Mutual info classification graph](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Mutual%20information%20classification.png)<br>
+![Mutual info classification graph](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Mutual%20information%20classification.png)<br>
 The PCA and KMeans clustering ...<br>
 <br>
 
 Secondly, we started performing tests on a sequential deep learning network. We had experimented with different numbers of nodes per layer and layers, as well as number of epochs. We found that the most accurate results were achived with three hidden layers with 10, 28, 28 nodes. The first hidden layer used a ReLU activation function. The second two hidden layers used a sigmoid activation function. The output layer consisted of a single node as we were performing a binary classification; the activation was sigmoid. With this we were able to achive an accuracy of 70.61% with a loss of 60.58% at 20 epochs.<br>
-[Sequential Deep Learning Model Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Sequential%20deep%20learning%20results.PNG)
+![Sequential Deep Learning Model Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Sequential%20deep%20learning%20results.PNG)
 <br>
 
 Thirdly, the sequential deep learning model was optimised using Keras HyperParameter tuning. Unfortunatly this provided less accuracy than the original deep learning model at 70.03% accuracy and 62.34% loss.<br>
-[Keras Hyperparameters Tuned Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Keras%20tuner%20results.PNG)
+![Keras Hyperparameters Tuned Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Keras%20tuner%20results.PNG)
 <br>
 
 Finally, we used a random forest model to perform the same predictions. With 100 estimators, we had achieved an accuracy of 84.55%.<br>
-[Random Forest Model Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Random%20Forest%20results.PNG)<br>
+![Random Forest Model Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Random%20Forest%20results.PNG)<br>
 <br>
 We had further attempted to optimise the model using a grid search. However, the grid search had reduced the accuracy to 74.53%.<br>
-[Grid Search Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Grid%20search%20results.PNG)<br>
+![Grid Search Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Grid%20search%20results.PNG)<br>
 
 
 ### Data Delivery Methods
