@@ -31,7 +31,7 @@ Secondly, we started performing tests on a sequential deep learning network. We 
 ![Sequential Deep Learning Model Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Sequential%20deep%20learning%20results.PNG)
 <br>
 
-Thirdly, the sequential deep learning model was optimised using Keras HyperParameter tuning. Unfortunatly this provided less accuracy than the original deep learning model at 70.03% accuracy and 62.34% loss.<br>
+Thirdly, the sequential deep learning model was optimised using Keras HyperParameter tuning. Unfortunately this provided less accuracy than the original deep learning model at 70.03% accuracy and 62.34% loss.<br>
 ![Keras Hyperparameters Tuned Results](https://github.com/Ljubrich/Project-4-Group-1/blob/main/Images/Keras%20tuner%20results.PNG)
 <br>
 
